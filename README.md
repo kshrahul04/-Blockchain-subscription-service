@@ -18,3 +18,22 @@ This project demonstrates real-world DeFi concepts by building a subscription se
 - **Tools:** VS Code
 
 ## 📂 Project Structure
+blockchain-subscription-service/
+│
+├── subscription.sol      # Main smart contract
+├── case_study.docx       # Project case study and analysis
+└── Project_Proposal.docx # Original project proposal
+
+## 🔍 Contract Functions
+| Function | Description |
+|----------|-------------|
+| `subscribe(uint _plan)` | Subscribe to Basic, Premium or VIP plan |
+| `checkSubscription(address)` | Check plan and expiry for any address |
+| `isActive(address)` | Returns true if subscription is still active |
+| `withdraw()` | Owner-only ETH withdrawal |
+
+## 💡 Key Concepts Demonstrated
+- Smart contract development in Solidity
+- Ethereum payment handling (msg.value)
+- Access control and security patterns
+- Blockchain-based state management
